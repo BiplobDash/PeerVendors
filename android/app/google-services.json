@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "630946297912",
+    "project_id": "peervendorsapp",
+    "storage_bucket": "peervendorsapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:630946297912:android:9defce6c520cc4ec188ecd",
+        "android_client_info": {
+          "package_name": "com.example.project4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "630946297912-mhfs50p26t7rvsf7ll08kksm9ngk31u8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.project4",
+            "certificate_hash": "f820d44ddc5e0a1cebf24f6e3179d58656127394"
+          }
+        },
+        {
+          "client_id": "630946297912-e4liqhrdj6taqmib14glfjh0451sa1gr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkMoMeR1GEGQ-uOEc0QH4fuvA_HvNrFNE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "630946297912-e4liqhrdj6taqmib14glfjh0451sa1gr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
