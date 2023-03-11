@@ -27,6 +27,7 @@ class _BottomNavState extends State<BottomNav> {
       floatingActionButton: Padding(
         padding: const EdgeInsets.only(left: 30),
         child: FloatingActionButton(
+          heroTag: null,
           onPressed: () {},
           child: Icon(
             Icons.add,
