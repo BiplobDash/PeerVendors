@@ -23,9 +23,9 @@ class SignUp extends StatelessWidget {
       }
     } on FirebaseAuthException catch (e) {
       if (e.code == 'weak-password') {
-        print('The password provided is too weak.');
+        SnackBar(content: Text('The password provided is too weak.'));
       } else if (e.code == 'email-already-in-use') {
-        print('The account already exists for that email.');
+        SnackBar(content: Text("'The account already exists for that email.'"));
       }
     } catch (e) {
       print(e);

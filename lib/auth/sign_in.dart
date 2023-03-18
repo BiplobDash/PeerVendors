@@ -23,9 +23,9 @@ class SignIn extends StatelessWidget {
       }
     } on FirebaseAuthException catch (e) {
       if (e.code == 'user-not-found') {
-        print('No user found for that email.');
+        SnackBar(content: Text('No user found for that email.'));
       } else if (e.code == 'wrong-password') {
-        print('Wrong password provided for that user.');
+        SnackBar(content: Text('Wrong password provided for that user.'));
       }
     }
   }
